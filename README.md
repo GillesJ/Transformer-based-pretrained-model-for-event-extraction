@@ -6,9 +6,9 @@ Pre-trained language models such as bert / gpt2 / albert / xlm / roberta are use
 [trigger identification]	P=0.723	R=0.805	F1=0.762
 [argument identification]	P=0.617	R=0.403	F1=0.488
 
-超参如下
-==================== 超参 ====================
-        PreTrainModel = ['Bert_large', 'Gpt', 'Gpt2', 'Ctrl', 'TransfoXL', 'Xlnet_base', 'Xlnet_large', 'XLM', 'DistilBert_base', 'DistilBert_large', 'Roberta_base', 'Roberta_large', 'XLMRoberta_base', 'XLMRoberta_large', 'ALBERT-base-v1', 'ALBERT-large-v1', 'ALBERT-xlarge-v1', 'ALBERT-xxlarge-v1', 'ALBERT-base-v2', 'ALBERT-large-v2', 'ALBERT-xlarge-v2', 'ALBERT-xxlarge-v2']
+The hyperparameters are as follows
+===================== hyperparameters ====================== model
+PreTrainModel = ['Bert_large', 'Gpt', 'Gpt2', 'Ctrl', 'TransfoXL', 'Xlnet_base', 'Xlnet_large', 'XLM', 'DistilBert_base', 'DistilBert_large', 'Roberta_base', 'Roberta_large', 'XLMRoberta_base', 'XLMRoberta_large', 'ALBERT-base-v1', 'ALBERT-large-v1', 'ALBERT-xlarge-v1', 'ALBERT-xxlarge-v1', 'ALBERT-base-v2', 'ALBERT-large-v2', 'ALBERT-xlarge-v2', 'ALBERT-xxlarge-v2']
            early_stop = 5
                    lr = 1e-05
                    l2 = 1e-05
@@ -21,5 +21,5 @@ Pre-trained language models such as bert / gpt2 / albert / xlm / roberta are use
    telegram_bot_token = 
      telegram_chat_id = 
        PreTrain_Model = XLMRoberta_large
-           model_path = /content/drive/My Drive/Colab Notebooks/模型/事件抽取/Transformer-based-pretrained-model-for-event-extraction-master/save_model/latest_model.pt
+           model_path = /content/drive/My Drive/Colab Notebooks/model/eventextraction/Transformer-based-pretrained-model-for-event-extraction-master/save_model/latest_model.pt
            batch_size = 16
