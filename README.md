@@ -7,7 +7,8 @@ Pre-trained language models such as bert / gpt2 / albert / xlm / roberta are use
 [argument identification]	P=0.617	R=0.403	F1=0.488
 
 The hyperparameters are as follows
-===================== hyperparameters ====================== model
+```
+===================== hyperparameters ======================
 PreTrainModel = ['Bert_large', 'Gpt', 'Gpt2', 'Ctrl', 'TransfoXL', 'Xlnet_base', 'Xlnet_large', 'XLM', 'DistilBert_base', 'DistilBert_large', 'Roberta_base', 'Roberta_large', 'XLMRoberta_base', 'XLMRoberta_large', 'ALBERT-base-v1', 'ALBERT-large-v1', 'ALBERT-xlarge-v1', 'ALBERT-xxlarge-v1', 'ALBERT-base-v2', 'ALBERT-large-v2', 'ALBERT-xlarge-v2', 'ALBERT-xxlarge-v2']
            early_stop = 5
                    lr = 1e-05
@@ -23,3 +24,4 @@ PreTrainModel = ['Bert_large', 'Gpt', 'Gpt2', 'Ctrl', 'TransfoXL', 'Xlnet_base',
        PreTrain_Model = XLMRoberta_large
            model_path = /content/drive/My Drive/Colab Notebooks/model/eventextraction/Transformer-based-pretrained-model-for-event-extraction-master/save_model/latest_model.pt
            batch_size = 16
+```
