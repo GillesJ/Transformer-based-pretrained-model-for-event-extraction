@@ -1,11 +1,12 @@
 # Transformer-based-pretrained-model-for-event-extraction
 Pre-trained language models such as bert / gpt2 / albert / xlm / roberta are used to perform event extraction tasks on ace2005. The code is modified on the nlpcl-lab / bert-event-extraction framework, replacing the model building part of the original project with the transformer and crf models of pytorch. The whole model adopts the sequence labeling method without using any auxiliary information. Use crf as the trigger word recognition, and then use crf for argument recognition based on the trigger word recognition results. When the pre-trained model selects xlm-roberta-large, trigger-f1 = 0.72; argument-f1 = 0.45. argument increased by 0.05.
 
+```
 [trigger classification]	P=0.677	R=0.754	F1=0.713
 [argument classification]	P=0.588	R=0.384	F1=0.464
 [trigger identification]	P=0.723	R=0.805	F1=0.762
 [argument identification]	P=0.617	R=0.403	F1=0.488
-
+```
 The hyperparameters are as follows
 ```
 ===================== hyperparameters ======================
